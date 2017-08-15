@@ -10,4 +10,9 @@ public class HomeController {
 	public String index() {
 		return "home";
 	}
+
+	@RequestMapping("/root")
+	public String indexoOne() {
+		return "index";
+	}
 }
